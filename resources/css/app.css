@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prose ul,
+.prose ol {
+    list-style-type: none;
+}
+
+.prose .tiptap ul {
+    list-style-type: disc;
+}
+
+.prose .tiptap ol {
+    list-style-type: decimal;
+}
